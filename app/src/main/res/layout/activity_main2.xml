@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="TextView Examples:"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:minWidth="250dp"
+        android:minHeight="48dp"
+        android:hint="Text"
+        android:inputType="text"
+        android:textSize="10dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:minWidth="250dp"
+        android:minHeight="48dp"
+        android:hint="PersonName"
+        android:inputType="textPersonName"
+        android:textSize="10dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:minWidth="250dp"
+        android:minHeight="48dp"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textSize="10dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:minWidth="250dp"
+        android:minHeight="48dp"
+        android:hint="Number"
+        android:inputType="number"
+        android:textSize="10dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:minWidth="250dp"
+        android:minHeight="48dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="10dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:minWidth="250dp"
+        android:minHeight="48dp"
+        android:hint="EmailAddress"
+        android:inputType="textEmailAddress"
+        android:textSize="10dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:minWidth="250dp"
+        android:minHeight="48dp"
+        android:hint="PostalAddress"
+        android:inputType="textPostalAddress"
+        android:textSize="10dp"/>
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
